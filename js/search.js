@@ -7,7 +7,7 @@ function search_message(){
 	if(search_str.value.length === 0){ // 문자 길이, 엄격한 비교
        alert("검색어가 비었습니다. 입력해주세요"); 
     }
-	else if(search_str.value.includes("123") || search_str.value.includes("456") || search_str.value.includes("789")){
+	else if(search_str.value.includes("aaa") || search_str.value.includes("bbb") || search_str.value.includes("ccc")){
 		 alert("비속어는 사용할 수 없습니다.");
 	}
 	else{
