@@ -1,6 +1,6 @@
 document.getElementById("search_btn").addEventListener('click', search_message);
 
-let F_word = ["비속어1", "비속어2", "비속어3"];
+let B_word = ["aaa", "bbb", "ccc"];
 var search_array = []; // 빈 배열 - 전역 변수
 
 function search_message(){
@@ -9,7 +9,7 @@ function search_message(){
 			alert("검색어가 비었습니다. 입력해주세요");
 		}
 		else{
-			if(F_word.includes(search_str.value)){
+			if(B_word.includes(search_str.value)){
 				alert(search_str.value+"은(는) 검색할 수 없습니다.");
 			}
 			else{
